@@ -18,7 +18,7 @@ class File_Manager:
         self.extension=[]
         for i in range(0,(self.number_of_folders_to_be_made)):
             self.temp=[]
-            self.temp=raw_input("folder name to be made and the files extension(mp3) with space ex audio mp3  ").split(" ")
+            self.temp=raw_input(" example  audio mp3 name of the folder and the extensio without . ").split(" ")
             self.name.append(self.temp[0])
             self.extension.append(self.temp[1])
 
